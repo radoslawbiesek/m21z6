@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/nodeappdatabase');
+mongoose.connect('mongodb+srv://radoslawbiesek:<password>@cluster0-pnjpp.mongodb.net/test?retryWrites=true');
 
 const Schema = mongoose.Schema;
 
